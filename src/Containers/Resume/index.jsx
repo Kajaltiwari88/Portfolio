@@ -25,9 +25,9 @@ const Resume = () => {
     {
       title: 'Bachelor of Science in Computer Science',
       school: 'Nagindas Khandwala College',
-      year: 'Currently pursuing',
+      year: '2024',
       desc:
-        'Currently in my third year student of BSS CS. Engaging in various courses and gaining knowledge in this field.',
+        'Graduated' ,
     },
   ];
 
