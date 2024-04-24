@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+
+    /* Hide on small screens */
+    ul.large {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* Hide on medium screens */
+    ul.large {
+        display: none;
+    }
+}
