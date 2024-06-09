@@ -29,7 +29,7 @@ const PersonalDetails = [
 
 const About = () => {
   return (
-    <div className="min-w-fit ">
+    <div className="relative ">
       <section>
         <PageHeader header="About Me" icon={<BsInfoCircleFill size={40} />} />
       </section>
@@ -38,7 +38,7 @@ const About = () => {
         duration={1}
         delay={1}
         start={{
-          transform: "translateY(-900px)",
+          transform: "translateY(900px)",
         }}
         end={{
           transform: "translateY(0px)",
@@ -48,7 +48,7 @@ const About = () => {
           <h2 className="text-4xl p-4 text-green-600 font-bold underline underline-offset-8">
             Personal Details
           </h2>
-          <ul className="mt-3 p-4 text-[4vw] text-gray-50 font-light leading-10">
+          <ul className="mt-3 p-4 lg:text-[2vw] text-[4vw] text-gray-50 font-light leading-10">
             {PersonalDetails.map((item, i) => (
               <li key={i}>
                 <span>{item.label}</span>
@@ -65,7 +65,7 @@ const About = () => {
             Short Summary
           </h2>
           <p
-            className="mt-3 text-[4vw] text-gray-50 font-light leading-10
+            className="mt-3 lg:text-[2vw] text-[4vw] text-gray-50 font-light leading-10
              lg:w-[50%] lg:h-[50%] w-full  text-justify p-4"
           >
             Welcome to my portfolio page! I am a passionate and dedicated
@@ -89,18 +89,15 @@ const About = () => {
           transform: "translateY(0px)",
         }}
         end={{
-          transform: "translateY(800px)",
+          transform: "translateY(-5px)",
         }}
       >
-        <div className=" top-[30px] left-0 lg:top-2 lg:right-4">
-          <div
-            className=" w-[350px] h-[350px] ml-5 border border-[#e67e22] 
-          rounded-full bg-gradient-to-l from-red-500 to-transparent animate-spin "
-          >
+        <div className="flex lg:relative absolute top-[900px] justify-end p-6 ">
+          <div className=" w-[350px] h-[350px] border border-[#e67e22] rounded-full bg-gradient-to-l from-red-500 to-transparent animate-spin">
             <div className="absolute top-[25px] right-[25px]">
               <FaReact size={50} color="#fff200" />
             </div>
-            <div className="absolute left-[60px] right-[60px]">
+            <div className="absolute left-[60px] ">
               <BsAndroid2 size={50} color="#fff200" />
             </div>
             <div className="absolute bottom-[40px] left-[30px]">
