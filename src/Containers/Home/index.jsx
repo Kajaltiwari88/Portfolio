@@ -20,7 +20,7 @@ const Home = () => {
             }}
           >
             <div className="w-full">
-              <img className="border-black rounded-3xl" src={img1} alt="img1" />
+              <img className="border-black rounded-3xl " src={img1} alt="img1" />
             </div>
           </Animate>
         </div>
@@ -37,7 +37,7 @@ const Home = () => {
               transform: "translateX(0px)",
             }}
           >
-            <h1 className="lg:leading-relaxed lg:text-3xl text-amber-300 font-semibold text-[1.5rem] lg:text-left text-center ">
+            <h1 className="leading-loose lg:text-3xl text-amber-300 font-semibold text-[5vw] lg:text-left text-center ">
               Hi, I am Kajal Tiwari
               <br />
               A Beginner Web Developer
@@ -89,4 +89,3 @@ const Home = () => {
 };
 
 export default Home;
-
