@@ -51,7 +51,7 @@ const Projects = () => {
             rel="noopener noreferrer"
           >
               <img className="w-[50%] mt-5" src={src} alt={alt} />
-              <h3 className="text-white text-3xl mt-5 mb-3">{title}</h3>
+              <h3 className="text-white text-3xl m-4 flex items-center">{title}</h3>
             </a>
           ))}
         </div>
