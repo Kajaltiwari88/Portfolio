@@ -29,7 +29,7 @@ const PersonalDetails = [
 
 const About = () => {
   return (
-    <div className="w-fit ">
+    <div className="min-w-fit ">
       <section>
         <PageHeader header="About Me" icon={<BsInfoCircleFill size={40} />} />
       </section>
