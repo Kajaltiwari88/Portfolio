@@ -31,7 +31,7 @@ const About = () => {
   return (
     <div className="max-w-screen-sm ">
       <section>
-        <PageHeader header="About Me" icon={<BsInfoCircleFill size={40} />} />
+        <PageHeader className="fixed"  header="About Me" icon={<BsInfoCircleFill size={40} />} />
       </section>
       <Animate
         play
