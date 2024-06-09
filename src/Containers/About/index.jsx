@@ -92,7 +92,7 @@ const About = () => {
           transform: "translateY(-5px)",
         }}
       >
-        <div className="flex lg:relative absolute top-[900px] justify-end p-6 ">
+        <div className="flex lg:relative absolute top-[900px] justify-end p-0">
           <div className=" w-[350px] h-[350px] border border-[#e67e22] rounded-full bg-gradient-to-l from-red-500 to-transparent animate-spin">
             <div className="absolute top-[25px] right-[25px]">
               <FaReact size={50} color="#fff200" />
