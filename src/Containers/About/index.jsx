@@ -93,7 +93,7 @@ const About = () => {
         }}
       >
         <div className="flex lg:relative absolute top-[900px] justify-end">
-          <div className=" w-[350px] h-[350px] border border-[#e67e22] rounded-full bg-gradient-to-l from-red-500 to-transparent animate-spin">
+          <div className=" w-full h-[350px] border border-[#e67e22] rounded-full bg-gradient-to-l from-red-500 to-transparent animate-spin">
             <div className="absolute top-[25px] right-[25px]">
               <FaReact size={50} color="#fff200" />
             </div>
