@@ -29,7 +29,7 @@ const PersonalDetails = [
 
 const About = () => {
   return (
-    <div>
+    <div className="min-w-fit ">
       <section>
         <PageHeader header="About Me" icon={<BsInfoCircleFill size={40} />} />
       </section>
@@ -38,17 +38,17 @@ const About = () => {
         duration={1}
         delay={1}
         start={{
-          transform: "translateX(-900px)",
+          transform: "translateY(-900px)",
         }}
         end={{
-          transform: "translateX(0px)",
+          transform: "translateY(0px)",
         }}
       >
-        <div className="flex flex-col h-28 w-full mx-4 my-3">
-          <h2 className="text-4xl text-green-600 font-bold underline underline-offset-8">
+        <div className="flex flex-col h-28 w-full my-3">
+          <h2 className="text-4xl p-4 text-green-600 font-bold underline underline-offset-8">
             Personal Details
           </h2>
-          <ul className="mt-3 text-[20px] text-gray-50 font-light leading-10">
+          <ul className="mt-3 p-4 text-[4vw] text-gray-50 font-light leading-10">
             {PersonalDetails.map((item, i) => (
               <li key={i}>
                 <span>{item.label}</span>
@@ -60,13 +60,13 @@ const About = () => {
 
           <h2
             className="text-4xl text-green-600 font-bold underline 
-          underline-offset-8 mt-8"
+          underline-offset-8 mt-8 p-4"
           >
             Short Summary
           </h2>
           <p
-            className="mt-3 text-[20px] text-gray-50 font-light leading-10
-             lg:w-[50%] lg:h-[50%] w-[90%] h-3 text-justify"
+            className="mt-3 text-[4vw] text-gray-50 font-light leading-10
+             lg:w-[50%] lg:h-[50%] w-full  text-justify p-4"
           >
             Welcome to my portfolio page! I am a passionate and dedicated
             frontend developer, specializing in HTML, CSS, and JavaScript. With
@@ -80,20 +80,19 @@ const About = () => {
         </div>
       </Animate>
 
-      <hr/>
 
       <Animate
         play
         duration={1}
         delay={1}
         start={{
-          transform: "translateX(400px)",
-        }}
-        end={{
           transform: "translateY(0px)",
         }}
+        end={{
+          transform: "translateY(800px)",
+        }}
       >
-        <div className="fixed top-[800px] lg:top-2 lg:right-4">
+        <div className=" top-[30px] left-0 lg:top-2 lg:right-4">
           <div
             className=" w-[350px] h-[350px] ml-5 border border-[#e67e22] 
           rounded-full bg-gradient-to-l from-red-500 to-transparent animate-spin "
@@ -118,3 +117,4 @@ const About = () => {
 };
 
 export default About;
+
