@@ -3,7 +3,7 @@ import { MdComputer } from "react-icons/md";
 import { Animate } from "react-simple-animate";
 import todo from "../../assets/to-do.png";
 import weatherApp from "../../assets/weatherapp.jpg";
-import BubbleGame from "../../assets/bubblegame.jpg";
+import BubbleGame from "../../assets/Bubblegame.jpg";
 
 
 
