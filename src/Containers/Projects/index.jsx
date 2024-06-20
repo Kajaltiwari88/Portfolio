@@ -49,7 +49,7 @@ const Projects = () => {
             transform: "translateY(50px)",
           }}
         >
-        <div className="mx-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mx-10 my-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skills.map(({id,src,title,alt,link})=>(
             <a
             href={link}
