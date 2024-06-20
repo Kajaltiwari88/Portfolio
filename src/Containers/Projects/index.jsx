@@ -29,7 +29,7 @@ const Projects = () => {
       title: "BUBBLE GAME",
       src: BubbleGame,
       alt: "BUBBLE GAME",
-      link:'https://bubblegame-dbfmzyyzi-kajaltiwari88s-projects.vercel.app/'
+      link:'https://bubblegame-kajaltiwari88s-projects.vercel.app/'
     },
  
   ]
