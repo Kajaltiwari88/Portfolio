@@ -3,6 +3,7 @@ import { MdComputer } from "react-icons/md";
 import { Animate } from "react-simple-animate";
 import todo from "../../assets/to-do.png";
 import weatherApp from "../../assets/weatherapp.jpg";
+import BubbleGame from "../../assets/bubblegame.jpg";
 
 
 
@@ -22,6 +23,13 @@ const Projects = () => {
       src: weatherApp,
       alt: "WEATHER APP",
       link:'https://kajal-weather-app.000webhostapp.com/'
+    },
+    {
+      id: 3,
+      title: "BUBBLE GAME",
+      src: BubbleGame,
+      alt: "BUBBLE GAME",
+      link:'https://bubblegame-dbfmzyyzi-kajaltiwari88s-projects.vercel.app/'
     },
  
   ]
@@ -51,7 +59,7 @@ const Projects = () => {
             rel="noopener noreferrer"
           >
               <img className="w-[50%] mt-5" src={src} alt={alt} />
-              <h3 className="text-white text-3xl m-4 flex items-center justify-center">{title}</h3>
+              <h3 className="text-white text-3xl flex items-center justify-center">{title}</h3>
             </a>
           ))}
         </div>
